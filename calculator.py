@@ -7,7 +7,10 @@ def subtraction():
     pass
 
 def multiplication():
-    pass
+    num1 = int(input("kerek egy szamot: "))
+    num2 = int(input("kerek egy masik szamot: "))
+    eredmeny = num1*num2
+    print("a szorzas eredmenye: ", eredmeny)
 
 def division():
     pass
@@ -26,3 +29,5 @@ def maxnumber():
 
 def minnumber():
     pass
+
+multiplication()
