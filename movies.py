@@ -4,7 +4,9 @@ for movie in ben_movies:
     print(movie)
 
 # Szirtes
-
+szirtes_movies = ["Legalább", "Három", "Film"]
+for movie in szirtes_movies:
+    print(movie)
 # Tomi
 
 # Ádám
