@@ -10,7 +10,10 @@ def multiplication():
     pass
 
 def division():
-    pass
+    num1 = int(input("Adjon meg egy számot: "))
+    num2 = int(input("Adjon meg egy másik számot: "))
+    result = num1 / num2
+    print(f'Az eredmény: {result}')
 
 def pow():
     pass
@@ -26,3 +29,9 @@ def maxnumber():
 
 def minnumber():
     pass
+
+
+
+
+
+division()
