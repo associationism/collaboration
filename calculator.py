@@ -27,7 +27,12 @@ def pow():
     print(f'A {num1} a(z) {num2}. hatványon: {result} ')
 
 def modulo():
-    pass
+    print("\n(a mod n = r)")
+    num1 = int(input("Adj meg egy számot(a): "))
+    num2 = int(input("Adj meg egy másik számot(n): "))
+    result = num1 % num2
+    print(f"{num1} mod {num2} = {result}")
+    #pass
 
 def absolute():
     num1 = int(input("Adjon meg egy számot: "))
@@ -43,4 +48,5 @@ def maxnumber():
     
 def minnumber():
     pass
+
 
