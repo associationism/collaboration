@@ -13,7 +13,10 @@ def division():
     pass
 
 def pow():
-    pass
+    num1 = int(input("Adjon meg egy számot: "))
+    num2 = int(input("Adjon meg egy számot: "))
+    result = num1 ** num2
+    print(f'A {num1} a(z) {num2}. hatványon: {result} ')
 
 def modulo():
     pass
@@ -26,3 +29,5 @@ def maxnumber():
 
 def minnumber():
     pass
+
+pow()
