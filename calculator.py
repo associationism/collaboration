@@ -30,11 +30,17 @@ def modulo():
     pass
 
 def absolute():
-    pass
+    num1 = int(input("Adjon meg egy számot: "))
+    
+    if num1 > 0:
+        print(f'"A megadott szám értéke:" {num1}')
+    elif num1 < 0:
+        print(f'"A megadott szám értéke:" {-1*num1}')
+    else:
+        print("A megadott szám 0!")
 
 def maxnumber():
-    pass
-
+    
 def minnumber():
     pass
 
