@@ -48,7 +48,15 @@ def absolute():
         print("A megadott szám 0!")
 
 def maxnumber():
-    
+    num1 = int(input("Adjon meg egy számot: "))
+    num2 = int(input("Adjon meg egy számot: "))
+    if num1 > num2:
+        print(f'{num1} a nagyobb.')
+    elif num1 == num2:
+        print(f'A két szám egyenlő.')
+    else:
+        print(f'{num2} a nagyobb')
+
 def minnumber():
     pass
 
