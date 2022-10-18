@@ -17,7 +17,17 @@ for movie in laci_movies:
 
 # Máté
 
+<<<<<<< HEAD
 # Umi
 umi_movies = ["Terminator", "Star Wars", "It"]
 for movie in umi_movies:
     print(movie)
+=======
+
+mate_movies = ["ToyStory", "Verdak", "DÉF"]
+for movie in mate_movies:
+    print(movie)
+
+
+# Umi
+>>>>>>> 19e71f3 (fifth)
