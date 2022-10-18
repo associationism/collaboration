@@ -1,7 +1,10 @@
 # create functions for different operations
 
 def addition():
-    pass
+    num1 = int(input("Adjon meg egy számot:"))
+    num2 = int(input("Adjon meg egy számot:"))
+    num3 = num1 + num2
+    print(num3)
 
 def subtraction():
     pass
