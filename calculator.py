@@ -4,7 +4,9 @@ def addition():
     pass
 
 def subtraction():
-    pass
+    num1 = int(input("Adjon meg egy számot: "))
+    num2 = int(input("Adjon meg még egy számot: "))
+    print(f'A(z) {num1} és a(z) {num2} számok különbsége : {num1 - num2}')
 
 def multiplication():
     pass
@@ -26,3 +28,7 @@ def maxnumber():
 
 def minnumber():
     pass
+
+
+
+subtraction()
