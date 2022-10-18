@@ -18,7 +18,10 @@ def multiplication():
     print("a szorzas eredmenye: ", eredmeny)
 
 def division():
-    pass
+    num1 = int(input("Adjon meg egy számot: "))
+    num2 = int(input("Adjon meg egy másik számot: "))
+    result = num1 / num2
+    print(f'Az eredmény: {result}')
 
 def pow():
     num1 = int(input("Adjon meg egy számot: "))
